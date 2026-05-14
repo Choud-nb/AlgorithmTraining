@@ -1,6 +1,6 @@
 ### 1 入门阶段
 *  **1.1 从零开始** <br>
-    * [P1421 小玉买文具](./Solutions/1.1_P1421.cpp/)<br>
+    * [P1421 小玉买文具](./Solutions/P1421.cpp)<br>
     * [P1909 买铅笔](./Solutions/1.1_P1421.cpp/)<br>
     * [P1089 津津的储蓄计划](./Solutions/1.1_P1421.cpp/)<br>
     * [P1085 不高兴的津津](./Solutions/1.1_P1421.cpp/)<br>
