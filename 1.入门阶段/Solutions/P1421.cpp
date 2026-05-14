@@ -13,3 +13,4 @@ int main()
 
 //AC
 //summit 1
+//[笔记]（../Notes/P1421.md)
