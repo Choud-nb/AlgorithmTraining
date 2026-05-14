@@ -1,23 +1,24 @@
 #include <iostream>
 using namespace std;
-int n;
-int minMoney=0x3f3f3f3f;
+int minMoney = 0x3f3f3f3f;
 
 int main()
 {
-    cin>>n;
-    for(int i=0;i<3;i++)
+    int n;
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    cin >> n;
+    for (int i = 0; i < 3; i++)
     {
-        int price,nums;
-        cin>>nums>>price;
-        int Money=n/nums*price;
-        if(n%nums!=0)Money+=price;
-        minMoney=min(minMoney,Money);
+        int price, nums;
+        cin >> nums >> price;
+        int money = (n + nums - 1) / nums * price;
+        minMoney = min(minMoney, money);
     }
-    cout<<minMoney<<"\n";
+    cout << minMoney << "\n";
 
     return 0;
 }
 
-//AC
-//submit 1
+// AC
+// submit 1
