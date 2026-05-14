@@ -3,3 +3,5 @@
 *.o
 .vscode/
 bin/
+output/
+temp/
