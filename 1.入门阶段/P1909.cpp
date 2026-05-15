@@ -1,12 +1,17 @@
-#include <iostream>
+/**
+ * 题目: P1000
+ * 难度: 简单
+ */
+#include <bits/stdc++.h>
+
 using namespace std;
 int minMoney = 0x3f3f3f3f;
 
-int main()
-{
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
     int n;
-    ios::sync_with_stdio(0);
-    cin.tie(0);
     cin >> n;
     for (int i = 0; i < 3; i++)
     {
@@ -20,5 +25,10 @@ int main()
     return 0;
 }
 
-// AC
-// submit 1
+/*
+时间复杂度: O(N)
+空间复杂度: O(1)
+
+--- 复盘 ---
+注意变量money的处理
+*/
