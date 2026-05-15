@@ -1,7 +1,9 @@
-#include <stack>
-#include <vector>
-#include <iostream>
+/**
+ * 题目: P1004
+ * 难度: 普及-
+ */
 
+#include <bits/stdc++.h>
 using namespace std;
 
 int n,target_x,target_y;
@@ -39,5 +41,10 @@ int main()
     return 0;
 }
 
-//AC
-//SUBMIT 1
+/*
+时间复杂度: O(N)
+空间复杂度: O(1)
+
+--- 复盘 ---
+
+*/
