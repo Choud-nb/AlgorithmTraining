@@ -11,8 +11,6 @@ int main() {
     cin.tie(nullptr);
     
     int a,b;
-    ios::sync_with_stdio(0);
-    cin.tie(0);
     cin>>a>>b;
     cout<<(a*10+b)/19<<"\n";
 
